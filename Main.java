@@ -1,4 +1,5 @@
-import ngrammer.*;
+import lister.Lister;
+import ngrammer.NGrammer;
 
 import java.util.ArrayList;
 import java.util.List;
