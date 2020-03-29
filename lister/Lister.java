@@ -11,6 +11,7 @@ public class Lister {
     Scanner      scan;
     String       string;
 
+    
     public Lister(){}
 
 
