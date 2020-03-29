@@ -12,9 +12,9 @@ public class NGrammer {
 
 
     public NGrammer(List<String> list, Integer cnt){
+        arr   = new String [list.size()];
         alist = list;
         count = cnt;
-        arr   = new String [list.size()];
     }
 
 
