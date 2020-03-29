@@ -8,13 +8,19 @@ import java.io.IOException;
 
 public class Lister {
     List<String> lexicon;
-    
+    Scanner      scan;
+    String       string;
+
     public Lister(){}
-    
-    public Lister(String string){
-        Scanner scan;
+
+
+    public Lister(String str){
         lexicon = new ArrayList<>();
-        
+        string  = str;
+    }
+
+
+    public List<String> getList(){
         try{
             scan = new Scanner(new File(string));
             while(scan.hasNext()){
@@ -23,10 +29,7 @@ public class Lister {
         }catch(IOException ioe){
             ioe.printStackTrace();
         }
-    }
 
-
-    public List<String> getList(){
         return lexicon;
     }
 }
