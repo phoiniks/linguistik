@@ -3,9 +3,9 @@ package ngrammer;
 import java.util.List;
 
 public class NGrammer {
-    public NGrammer(){}
-
     String arr[], ngram;
+    
+    public NGrammer(){}
 
     public NGrammer(List<String> alist, Integer count){
         arr = new String [alist.size()];

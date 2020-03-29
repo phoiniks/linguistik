@@ -7,9 +7,9 @@ import java.io.File;
 import java.io.IOException;
 
 public class Lister {
-    public Lister(){}
-
     List<String> lexicon;
+    
+    public Lister(){}
     
     public Lister(String string){
         Scanner scan;
@@ -24,6 +24,7 @@ public class Lister {
             ioe.printStackTrace();
         }
     }
+
 
     public List<String> getList(){
         return lexicon;
